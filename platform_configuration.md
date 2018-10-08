@@ -1,4 +1,4 @@
-#Runtime Platform Configuration
+# Runtime Platform Configuration
 
 - previous generations: 12000+ line xml file and 8000+ line sdrs
  
@@ -8,7 +8,7 @@
 - one file per platform
 - becomes difficult with tangent platforms
 
-#goals
+# goals
 
 - platform ports in less than a day, our current shipping platforms take about 2
 - no hard-codes per platform, minimum code changes for a new platform
@@ -17,7 +17,7 @@
 - no sdrs (generated sdrs for compatibility)
 - stretch: multi-vendor support "just works" - add another vendors card, detected and enumerated
 
-#how to
+# how to
 
 - device tree overlays, created from final result configuration
 - multiple (or 1) json files with probe strings that allow detection (such as fru fields)
